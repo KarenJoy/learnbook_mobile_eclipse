@@ -1,0 +1,88 @@
+body.learnbooklogin {
+
+	margin-top: 200px;
+}
+
+#loginbox{
+	z-index: 99;
+
+	.login-header {
+	  padding: 20px;
+	  background-color: @whitecolor;
+	  text-align: center;
+	  
+
+
+	  	img.login-logo {
+	  	  max-width: 100%;
+	  	}
+	}
+
+
+
+	.logininner {
+	  background-color: fade(@whitecolor, 50%);
+	  padding: 40px;
+
+	  .forgetpass {
+	    text-align: center;
+	  }
+
+	  	.input-group{
+	  		margin-bottom: 10px;
+	  	}
+		
+		p.error.help-inline {
+		  margin-left: 5%;
+		}
+
+		.add-on{
+			// background-color: darken(@whitecolor, 40%);
+			// height: 100%;
+			// width: 30px;
+			// padding: 9px;
+			i{
+				color: lighten(@whitecolor, 4%)
+			}
+		}
+
+		input[type="text"],
+		input[type="password"]{
+			// border-radius: 0;
+			// background-color: transparent;
+			// border: 3px solid darken(@whitecolor, 40%);
+			// width: 100%;
+			// margin-left: -4px !important;
+		}
+		
+		input#login-username {
+
+		}
+
+		input#login-password {
+
+		}
+
+		button, input[type="submit"] {
+		  width: 80%;
+		  margin: 10px auto;
+		  display: block;
+		  box-sizing: border-box; /* css3 rec */
+        -moz-box-sizing: border-box; /* ff2 */
+        -ms-box-sizing: border-box; /* ie8 */
+        -webkit-box-sizing: border-box; /* safari3 */
+        -khtml-box-sizing: border-box; /* konqueror */
+		}
+
+		.btn-login{
+			background-color: @primarycolor;
+			color: white;
+		}
+
+		.btn-signup{
+			background-color: @secondarycolor;
+		}
+
+	}
+
+}

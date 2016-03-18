@@ -1,0 +1,68 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.ecreators.dev.learnbook"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "com.ecreators.dev.learnbook"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.ecreators.dev.learnbook"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.ecreators.dev.learnbook"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.ecreators.dev.learnbook"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.ecreators.dev.learnbook"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.ecreators.dev.learnbook"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.ecreators.dev.learnbook"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "com.ecreators.dev.learnbook"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.ecreators.dev.learnbook"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "com.ecreators.dev.learnbook"
+        },
+        "cordova-plugin-customurlscheme": {
+            "URL_SCHEME": "LearnbookMobile",
+            "PACKAGE_NAME": "com.ecreators.dev.learnbook"
+        },
+        "cordova-plugin-local-notifications-mm": {
+            "PACKAGE_NAME": "com.ecreators.dev.learnbook"
+        },
+        "net.tunts.webintent": {
+            "PACKAGE_NAME": "com.ecreators.dev.learnbook"
+        },
+        "com.phonegap.plugins.PushPlugin": {
+            "PACKAGE_NAME": "com.ecreators.dev.learnbook"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "com.ecreators.dev.learnbook"
+        },
+        "ch.ti8m.documenthandler": {
+            "PACKAGE_NAME": "com.ecreators.dev.learnbook"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-android-support-v4": {
+            "PACKAGE_NAME": "com.ecreators.dev.learnbook"
+        }
+    }
+}
